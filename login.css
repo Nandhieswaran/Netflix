@@ -1,0 +1,85 @@
+    #logo {
+        margin-left: 540px;
+        margin-top: 10px;
+        position: absolute;
+        width: 200px;
+    }
+    
+    body {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: black;
+    }
+    
+    form {
+        color: white;
+        width: 600px;
+        margin-top: 200px;
+        margin-left: 50px;
+        position: absolute;
+        padding: 40px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(185, 0, 0, 0.925);
+        border-radius: 10px;
+    }
+    
+    input[type=text],
+    input[type=password] {
+        width: 300px;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        text-align: center;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        border-radius: 5px;
+    }
+    
+    label {
+        text-align: center;
+    }
+    
+    button {
+        background-color: brown;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 5px;
+        border: none;
+        cursor: pointer;
+        width: 100px;
+        border-radius: 5px;
+    }
+    
+    button:hover {
+        opacity: 0.8;
+    }
+    
+    .shw1 {
+        color: black;
+    }
+    
+    a:link,
+    a:visited {
+        background-color: #f44336;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 5px;
+    }
+    
+    a:hover,
+    a:active {
+        background-color: brown;
+    }
+    
+    #fp {
+        color: white;
+        margin-left: 215px;
+        margin-top: 30px;
+        border-radius: 5px;
+    }
+    
+    #bg {
+        width: 100%;
+        height: auto;
+    }
